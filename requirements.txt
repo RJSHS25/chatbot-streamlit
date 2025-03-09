@@ -1,0 +1,7 @@
+streamlit
+pandas
+joblib
+scikit-learn
+fuzzywuzzy
+python-Levenshtein
+nltk
