@@ -118,11 +118,18 @@ def export_to_excel(csv_file_path):
     except Exception as e:
         print(f"Error exporting to Excel: {e}")
 
-questions_file = 'D:/ML_OPS/New/Q&A.csv'
-label_mapping_file = 'D:/ML_OPS/New/label_mapping1.csv'
-model_file = 'D:/ML_OPS/New/best_xgboost_model.pkl'
-type_encoder_file = 'D:/ML_OPS/New/label_encoder_type.pkl'
-customer_encoder_file = 'D:/ML_OPS/New/label_encoder_customer.pkl'
+import os
+
+# Get the directory of this script
+base_path = os.path.dirname(os.path.abspath(__file__))
+
+# Load files from the same directory as the script
+questions_file = os.path.join(base_path, 'Q&A.csv')
+label_mapping_file = os.path.join(base_path, 'label_mapping1.csv')
+model_file = os.path.join(base_path, 'best_xgboost_model.pkl')
+type_encoder_file = os.path.join(base_path, 'label_encoder_type.pkl')
+customer_encoder_file = os.path.join(base_path, 'label_encoder_customer.pkl')
+
 
 chatbot = SimpleChatbot(questions_file, label_mapping_file, model_file, type_encoder_file, customer_encoder_file)
 
