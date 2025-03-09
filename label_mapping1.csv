@@ -1,0 +1,82 @@
+Category,Numeric Label,Next Question 1,Probability 1,Next Question 2,Probability 2,Next Question 3,Probability 3
+Account & Settings - Address update,0,Online Payment - Others,0.21743998,Account & Settings - Email id update,0.17469013,Savings account - Features and Details,0.112655886
+Account & Settings - Email id update,1,Savings account - Features and Details,0.29019636,Account & Settings - Email id update,0.17164966,Online Payment - Others,0.16615725
+Account & Settings - Nominee change/addition,2,Savings account - Features and Details,0.33276507,Online Payment - Others,0.20677747,Online Payment- PIN related query,0.09292384
+Account & Settings - mPIN set/update,3,Savings account - Features and Details,0.28880137,Online Payment - Others,0.1794588,Account & Settings - mPIN set/update,0.1427931
+Account Closure Request,4,Online Payment - Others,0.23723154,Online Payment- PIN related query,0.117869265,Savings account - Features and Details,0.11625006
+Auto Debit Issue,5,Online Payment - Others,0.23723154,Online Payment- PIN related query,0.117869265,Savings account - Features and Details,0.11625006
+Balance Transfer Request,6,Online Payment - Others,0.23658746,Online Payment- PIN related query,0.117549255,Savings account - Features and Details,0.11593445
+Balance not updated,7,Online Payment - Others,0.24032788,Online Payment- PIN related query,0.11940769,Savings account - Features and Details,0.11776735
+Bank Transfer Failed,8,Online Payment - Others,0.24437541,Online Payment- PIN related query,0.121418715,Savings account - Features and Details,0.11975075
+Bank Transfers - Credit of incoming transaction,9,Online Payment - Others,0.23782362,Savings account - Features and Details,0.14202915,Online Payment- PIN related query,0.118163444
+Bank Transfers - Failed outgoing transaction,10,Online Payment - Others,0.2272692,Online Payment- PIN related query,0.11291944,Savings account - Features and Details,0.10100766
+Bank Transfers - General features/ queries,11,Online Payment - Others,0.2301943,Online Payment- PIN related query,0.11437279,Savings account - Features and Details,0.07797216
+Bank Transfers - Payee addition/ activation,12,Online Payment - Others,0.20646015,Bank Transfers - General features/ queries,0.13742624,Online Payment- PIN related query,0.1025804
+Bank Transfers - Reversal of incorrectly sent transaction,13,Online Payment - Others,0.22863796,Savings account - Features and Details,0.154044,Online Payment- PIN related query,0.11359952
+Bank Transfers - Standing Instructions related,14,Online Payment - Others,0.22515549,Savings account - Features and Details,0.1516977,Online Payment- PIN related query,0.11186924
+Bank Transfers - Unauthorized transaction,15,Online Payment - Others,0.2615748,Savings account - Features and Details,0.14325632,Online Payment- PIN related query,0.10855542
+Chargeback Request,16,Online Payment - Others,0.24982013,Savings account - Features and Details,0.13681865,Online Payment- PIN related query,0.103677146
+Debit Card - New Request,17,Online Payment - Others,0.24982013,Savings account - Features and Details,0.13681865,Online Payment- PIN related query,0.103677146
+Debit Card Charges,18,Online Payment - Others,0.26901266,Savings account - Features and Details,0.138026,Online Payment- PIN related query,0.10459208
+Debit card - ATM issue,19,Online Payment - Others,0.26899597,Savings account - Features and Details,0.13801745,Online Payment- PIN related query,0.10458559
+Debit card - Charges inquiry,20,Online Payment - Others,0.26499522,Savings account - Features and Details,0.13596472,Online Payment- PIN related query,0.1030301
+Debit card - Delivery issue,21,Online Payment - Others,0.2650456,Savings account - Features and Details,0.13599057,Online Payment- PIN related query,0.10304969
+Debit card - Delivery tracking,22,Online Payment - Others,0.2650456,Savings account - Features and Details,0.13599057,Online Payment- PIN related query,0.10304969
+Debit card - Features & benefits,23,Online Payment - Others,0.2650456,Savings account - Features and Details,0.13599057,Online Payment- PIN related query,0.10304969
+Debit card - Other,24,Online Payment - Others,0.25999963,Savings account - Features and Details,0.13340157,Online Payment- PIN related query,0.101087816
+Debit card - PIN creation,25,Online Payment - Others,0.1985205,Savings account - Features and Details,0.1380712,Online Payment- PIN related query,0.1046263
+Debit card - Settings,26,Online Payment - Others,0.17693119,Savings account - Features and Details,0.123055816,Debit card - Settings,0.12096508
+Debit card - Transaction Refund,27,Online Payment - Others,0.17024104,Debit card - Settings,0.14956012,Online Payment- PIN related query,0.10235679
+Debit card - Transaction dispute,28,Online Payment - Others,0.17730285,Debit card - Settings,0.15576406,Online Payment- PIN related query,0.10660268
+Debit card - Transaction issue,29,Online Payment - Others,0.14589387,Online Payment- PIN related query,0.12138001,Debit card - Settings,0.107594185
+DigiGold - Redemption,30,Online Payment - Others,0.13656385,Online Payment- PIN related query,0.11361767,Debit card - Settings,0.10071346
+DigiGold - Selling,31,Debit card - Settings,0.21456304,Online Payment - Others,0.12819536,Online Payment- PIN related query,0.08780161
+DigiGold- General,32,Online Payment - Others,0.14456509,Debit card - Settings,0.1318133,Online Payment- PIN related query,0.103407755
+Incorrect Transfer Chargeback,33,Online Payment - Others,0.15067045,Debit card - Settings,0.13738012,Online Payment- PIN related query,0.10374376
+Insights - Features,34,Online Payment - Others,0.1683656,Online Payment- PIN related query,0.1159277,Savings account - Features and Details,0.07992874
+Networth - Features,35,Online Payment - Others,0.1739504,Online Payment- PIN related query,0.12001482,Savings account - Features and Details,0.082746685
+Networth - Removing account,36,Online Payment - Others,0.15011632,Online Payment- PIN related query,0.10526723,DigiGold - Selling,0.08849247
+Onboarding - Credit Bureau Check,37,Online Payment- PIN related query,0.14048012,Online Payment - Others,0.13482949,Savings account - Features and Details,0.08566515
+Onboarding - Error in account creation,38,Online Payment- PIN related query,0.14048012,Online Payment - Others,0.13482949,Savings account - Features and Details,0.08566515
+Onboarding - Existing Abby user,39,Online Payment- PIN related query,0.1464028,Online Payment - Others,0.1311696,Savings account - Features and Details,0.08927683
+Onboarding - Mobile verification issue,40,Online Payment- PIN related query,0.14675565,Online Payment - Others,0.13148573,Savings account - Features and Details,0.089492
+Onboarding Issue,41,Online Payment- PIN related query,0.14675565,Online Payment - Others,0.13148573,Savings account - Features and Details,0.089492
+Onboarding Issue - Othes,42,Online Payment- PIN related query,0.1366695,Online Payment - Others,0.12332971,Account & Settings - Email id update,0.096463405
+Online Payment - Chargeback,43,Online Payment- PIN related query,0.13654234,Online Payment - Others,0.12321495,Account & Settings - Email id update,0.09730416
+Online Payment - Credit of incoming transaction,44,Online Payment- PIN related query,0.13809907,Online Payment - Others,0.124619745,Account & Settings - Email id update,0.098413534
+Online Payment - Others,45,Online Payment- PIN related query,0.13809907,Online Payment - Others,0.124619745,Account & Settings - Email id update,0.098413534
+Online Payment - Refund Not Received,46,Online Payment- PIN related query,0.13809907,Online Payment - Others,0.124619745,Account & Settings - Email id update,0.098413534
+Online Payment - Refund issue,47,Online Payment- PIN related query,0.13155419,Online Payment - Others,0.11871367,Account & Settings - Email id update,0.09374944
+Online Payment - Reversal of declined/failed transaction,48,Online Payment- PIN related query,0.13058205,Online Payment - Others,0.11783642,Account & Settings - Email id update,0.09305667
+Online Payment - Transaction issue,49,Online Payment- PIN related query,0.12987615,Online Payment - Others,0.117199436,Account & Settings - Email id update,0.10959602
+Online Payment Transaction Issue,50,Online Payment- PIN related query,0.12683903,Online Payment - Others,0.11445875,Account & Settings - Email id update,0.10703313
+Online Payment- Adding/ Removing bank account from Abby Online Payment,51,Online Payment- PIN related query,0.13239044,Online Payment - Others,0.11756874,Account & Settings - Email id update,0.090465955
+Online Payment- PIN related query,52,Online Payment - Others,0.13338748,Online Payment- PIN related query,0.12997857,Account & Settings - Email id update,0.08881786
+Other,53,Online Payment - Others,0.20727405,Online Payment- PIN related query,0.11836502,Account & Settings - Email id update,0.080882
+Priority Salary - Features,54,Online Payment - Credit of incoming transaction,0.22473961,Online Payment - Others,0.17455372,Online Payment- PIN related query,0.09967988
+Priority Salary - Others,55,Online Payment - Others,0.30273467,Online Payment- PIN related query,0.10409903,Online Payment - Credit of incoming transaction,0.09719031
+Priority Salary - Verification Prioritycess,56,Online Payment- PIN related query,0.1625947,Account & Settings - Email id update,0.1619774,Online Payment - Others,0.106626466
+Rewards Issue,57,Online Payment - Refund Not Received,0.18922555,Online Payment- PIN related query,0.13223128,Account & Settings - Email id update,0.13172926
+Rewardss - Not credited,58,Online Payment- PIN related query,0.15610482,Account & Settings - Email id update,0.15551215,Online Payment - Others,0.10237052
+Rewardss - Prioritygram details,59,Online Payment- PIN related query,0.17351015,Account & Settings - Email id update,0.15110324,Online Payment - Transaction issue,0.0805663
+Rewardss - Redemption issue,60,Online Payment- PIN related query,0.17351015,Account & Settings - Email id update,0.15110324,Online Payment - Transaction issue,0.0805663
+Rewardss - Referral,61,Online Payment- PIN related query,0.42849636,Account & Settings - Email id update,0.1241141,Online Payment - Credit of incoming transaction,0.04612733
+Savings Account - Account closure,62,Online Payment- PIN related query,0.42543617,Account & Settings - Email id update,0.123227715,Online Payment - Credit of incoming transaction,0.045797903
+Savings Account - Cheque book request,63,Online Payment- PIN related query,0.43555987,Account & Settings - Email id update,0.12554787,Savings account - Features and Details,0.04388997
+Savings Account - Cheque book status,64,Online Payment- PIN related query,0.2233935,Account & Settings - Email id update,0.17161168,Savings Account - Fees and Charges,0.0656287
+Savings Account - Fees and Charges,65,Online Payment- PIN related query,0.2233935,Account & Settings - Email id update,0.17161168,Savings Account - Fees and Charges,0.0656287
+Savings Account - Other Issues,66,Online Payment- PIN related query,0.2233935,Account & Settings - Email id update,0.17161168,Savings Account - Fees and Charges,0.0656287
+Savings Account - Statement request,67,Online Payment- PIN related query,0.21199864,Account & Settings - Email id update,0.16285811,Savings Account - Fees and Charges,0.06536651
+Savings account - Features and Details,68,Online Payment- PIN related query,0.21056016,Account & Settings - Email id update,0.16175306,Savings account - Features and Details,0.09797769
+Unauthorized Online Payment transaction,69,Online Payment- PIN related query,0.23835081,Account & Settings - Email id update,0.15354434,Savings account - Features and Details,0.0808288
+Unblock Online Payment ID request,70,Online Payment- PIN related query,0.24832232,Account & Settings - Email id update,0.15996793,Savings account - Features and Details,0.06142768
+Unique Savings - Account related query,71,Rewardss - Not credited,0.4547867,Online Payment- PIN related query,0.13535728,Account & Settings - Email id update,0.088343374
+Unique Savings - General queries,72,Rewardss - Not credited,0.21164443,Online Payment- PIN related query,0.20059668,Account & Settings - Email id update,0.13092305
+Unique Savings - Incorrect balance,73,Rewardss - Not credited,0.20724238,Online Payment- PIN related query,0.19642442,Account & Settings - Email id update,0.12819995
+Unique Savings - Issue with transfers,74,Online Payment- PIN related query,0.20264253,Account & Settings - Email id update,0.13225833,Rewardss - Referral,0.10196671
+Unique Savings - Other Issues,75,Online Payment- PIN related query,0.22055511,Account & Settings - Email id update,0.14394929,Unauthorized Online Payment transaction,0.08474159
+Unique Savings Issue,76,Online Payment- PIN related query,0.22055511,Account & Settings - Email id update,0.14394929,Unauthorized Online Payment transaction,0.08474159
+VKYC status not updated,77,Savings account - Features and Details,0.25672993,Online Payment- PIN related query,0.17982131,Account & Settings - Email id update,0.12511125
+Video verification - Other Issue,78,Online Payment- PIN related query,0.29652593,Savings account - Features and Details,0.24876243,Account & Settings - Email id update,0.10664658
+Video verification - Scheduled call incomplete,79,Online Payment- PIN related query,0.36227617,Account & Settings - Email id update,0.13029389,Savings account - Features and Details,0.09601471
+Video verification - Status Update,80,Online Payment- PIN related query,0.43123838,Account & Settings - Email id update,0.0926912,Savings account - Features and Details,0.065438986
