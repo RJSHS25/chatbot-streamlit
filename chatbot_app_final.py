@@ -26,17 +26,25 @@ class SimpleChatbot:
         self.abbreviation_dict = {"sav": "savings", "acc": "account"}
 
     def load_files(self):
-        files_to_check = [self.questions_file, self.label_mapping_file, self.model_file, self.type_encoder_file, self.customer_encoder_file]
-        for file in files_to_check:
-            if not os.path.exists(file):
-                raise FileNotFoundError(f"❌ File {file} not found.")
-            print(f"✅ Loading file: {file}")  # Debugging line to verify file loading
-        
-        try:
-            self.questions_df = pd.read_csv(self.questions_file, encoding="utf-8", errors="replace")
-        except UnicodeDecodeError:
-            print("⚠️ UnicodeDecodeError! Retrying with 'latin1' encoding.")
-            self.questions_df = pd.read_csv(self.questions_file, encoding="latin1", errors="replace")
+    files_to_check = [
+        self.questions_file, 
+        self.label_mapping_file, 
+        self.model_file, 
+        self.type_encoder_file, 
+        self.customer_encoder_file
+    ]
+    
+    for file in files_to_check:
+        if not file or not os.path.exists(file):
+            raise FileNotFoundError(f"❌ File not found: {file}")
+        print(f"✅ Loading file: {file}")  # Debugging line
+
+    try:
+        self.questions_df = pd.read_csv(self.questions_file, encoding="utf-8", errors="replace")
+    except UnicodeDecodeError:
+        print("⚠️ UnicodeDecodeError! Retrying with 'latin1' encoding.")
+        self.questions_df = pd.read_csv(self.questions_file, encoding="latin1", errors="replace")
+
 
         required_columns = ['Questions', 'Answers']
         for col in required_columns:
