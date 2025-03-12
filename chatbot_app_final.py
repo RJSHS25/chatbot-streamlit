@@ -80,7 +80,7 @@ class SimpleChatbot:
         suggestions = self.suggest_questions(preprocessed_question)
         if suggestions:
             return f"🤔 Did you mean: {', '.join(suggestions)}"
-        return "🔄Can you please rephrase the question..."
+        return "🔄 Connecting to agent..."
 
     def suggest_questions(self, input_text, cosine_threshold=0.2, fuzzy_threshold=60):
         processed_input = self.preprocess_input(input_text)
