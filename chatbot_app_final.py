@@ -26,44 +26,43 @@ class SimpleChatbot:
         self.abbreviation_dict = {"sav": "savings", "acc": "account"}
 
     def load_files(self):
-    files_to_check = [
-        self.questions_file, 
-        self.label_mapping_file, 
-        self.model_file, 
-        self.type_encoder_file, 
-        self.customer_encoder_file
-    ]
-    
-    for file in files_to_check:
-        if not file or not os.path.exists(file):
-            raise FileNotFoundError(f"❌ File not found: {file}")
-        print(f"✅ Loading file: {file}")  # Debugging line
+        """Loads chatbot data files and ensures they exist."""
+        
+        files_to_check = [
+            self.questions_file, 
+            self.label_mapping_file, 
+            self.model_file, 
+            self.type_encoder_file, 
+            self.customer_encoder_file
+        ]
+        
+        for file in files_to_check:
+            if not file or not os.path.exists(file):
+                raise FileNotFoundError(f"❌ File not found: {file}")
+            print(f"✅ Loading file: {file}")  # Debugging line
 
-    try:
-        self.questions_df = pd.read_csv(self.questions_file, encoding="utf-8", errors="replace")
-    except UnicodeDecodeError:
-        print("⚠️ UnicodeDecodeError! Retrying with 'latin1' encoding.")
-        self.questions_df = pd.read_csv(self.questions_file, encoding="latin1", errors="replace")
-
+        try:
+            self.questions_df = pd.read_csv(self.questions_file, encoding="utf-8", errors="replace")
+        except UnicodeDecodeError:
+            print("⚠️ UnicodeDecodeError! Retrying with 'latin1' encoding.")
+            self.questions_df = pd.read_csv(self.questions_file, encoding="latin1", errors="replace")
 
         required_columns = ['Questions', 'Answers']
         for col in required_columns:
             if col not in self.questions_df.columns:
                 raise KeyError(f"⚠️ Column '{col}' not found in the questions file.")
 
-        # Fill missing values with empty strings
         self.questions_df['Questions'] = self.questions_df['Questions'].astype(str).fillna('')
         self.questions_df['Answers'] = self.questions_df['Answers'].astype(str).fillna('')
-
         self.unique_questions = self.questions_df['Questions'].tolist()
         self.answers = dict(zip(self.questions_df['Questions'], self.questions_df['Answers']))
-        
+
         self.label_mapping = pd.read_csv(self.label_mapping_file, encoding="utf-8", errors="replace").fillna('')
         self.model = joblib.load(self.model_file)
         self.label_encoder_type = joblib.load(self.type_encoder_file)
         self.label_encoder_customer = joblib.load(self.customer_encoder_file)
 
-        print("✅ Files loaded successfully.")  # Debugging line to confirm files are loaded
+        print("✅ Files loaded successfully.")
 
     def preprocess_input(self, input_text):
         if input_text is None:
@@ -81,7 +80,7 @@ class SimpleChatbot:
         suggestions = self.suggest_questions(preprocessed_question)
         if suggestions:
             return f"🤔 Did you mean: {', '.join(suggestions)}"
-        return "🔄 Connecting to agent..."
+        return "🔄Can you please rephrase the question..."
 
     def suggest_questions(self, input_text, cosine_threshold=0.2, fuzzy_threshold=60):
         processed_input = self.preprocess_input(input_text)
